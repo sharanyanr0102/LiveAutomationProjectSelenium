@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-24T04:41:51Z" name="Default suite" finished-at="2025-07-24T04:42:25Z" duration-ms="33663">
+  <suite started-at="2025-08-11T11:55:16Z" name="Default suite" finished-at="2025-08-11T11:55:29Z" duration-ms="12422">
     <groups>
     </groups>
-    <test started-at="2025-07-24T04:41:51Z" name="Default test" finished-at="2025-07-24T04:42:25Z" duration-ms="33663">
-      <class name="tutorialsninja.register.TC_RF_001">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialsninja.register.TC_RF_001@7393222f]" started-at="2025-07-24T04:41:51Z" name="setUp" finished-at="2025-07-24T04:41:55Z" duration-ms="3832" status="PASS">
+    <test started-at="2025-08-11T11:55:16Z" name="Default test" finished-at="2025-08-11T11:55:29Z" duration-ms="12422">
+      <class name="tutorialsninja.register.TC_RF_004">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialsninja.register.TC_RF_004@69f1a286]" started-at="2025-08-11T11:55:16Z" name="setUp" finished-at="2025-08-11T11:55:20Z" duration-ms="3289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register()[pri:0, instance:tutorialsninja.register.TC_RF_001@7393222f]" started-at="2025-07-24T04:41:55Z" name="register" finished-at="2025-07-24T04:42:24Z" duration-ms="29573" status="PASS">
+        <test-method signature="register()[pri:0, instance:tutorialsninja.register.TC_RF_004@69f1a286]" started-at="2025-08-11T11:55:20Z" name="register" finished-at="2025-08-11T11:55:28Z" duration-ms="8858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsninja.register.TC_RF_001@7393222f]" started-at="2025-07-24T04:42:24Z" name="tearDown" finished-at="2025-07-24T04:42:25Z" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsninja.register.TC_RF_004@69f1a286]" started-at="2025-08-11T11:55:28Z" name="tearDown" finished-at="2025-08-11T11:55:29Z" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tutorialsninja.register.TC_RF_001 -->
+      </class> <!-- tutorialsninja.register.TC_RF_004 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

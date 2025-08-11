@@ -1,7 +1,8 @@
 package tutorialsninja.register;
 
 import java.time.Duration;
-import java.util.Properties;
+import java.util.List;
+import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -77,6 +78,15 @@ public class TC_RF_001 {
 		confirmPassword.clear();
 		confirmPassword.sendKeys(passwordValue);
 		Thread.sleep(1000);
+		
+		// Get all radio buttons with the given XPath
+        List<WebElement> radioButtons = driver.findElements(By.xpath("//input[@type='radio'][@name='newsletter']"));
+
+        Random random = new Random();
+        int randomIndex = random.nextInt(radioButtons.size());
+
+        // Click the randomly selected radio button
+        radioButtons.get(randomIndex).click();
 
 		WebElement agreeCheckbox = driver.findElement(By.name("agree"));
 		agreeCheckbox.click();
