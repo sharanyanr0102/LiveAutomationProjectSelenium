@@ -17,7 +17,7 @@ import com.github.javafaker.Faker;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TC_RF_005 {
+public class TC_RF_006 {
 	WebDriver driver;
 
 	@BeforeTest
@@ -79,7 +79,7 @@ public class TC_RF_005 {
 		confirmPassword.sendKeys(passwordValue);
 		Thread.sleep(1000);
 		
-        WebElement yesNewsletter = driver.findElement(By.xpath("//input[@type='radio'][@name='newsletter'][@value='1']"));
+        WebElement yesNewsletter = driver.findElement(By.xpath("//input[@type='radio'][@name='newsletter'][@value='0']"));
         yesNewsletter.click();
         Thread.sleep(1000);
 
@@ -107,7 +107,7 @@ public class TC_RF_005 {
 		Thread.sleep(1000);
 		
 		Assert.assertTrue(driver.findElement(By.xpath("//ul[@class='breadcrumb']//a[.='Newsletter']")).isDisplayed());
-		Assert.assertTrue(driver.findElement(By.xpath("//input[@name='newsletter'][@value='1']")).isSelected());
+		Assert.assertTrue(driver.findElement(By.xpath("//input[@name='newsletter'][@value='0']")).isSelected());
 		
 		continueButton = driver.findElement(By.xpath("//input[@value='Continue']"));
 		continueButton.click();
